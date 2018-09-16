@@ -1,0 +1,7 @@
+page{
+  background-color: #5ac8fa;
+  height: 100%;
+}
+text{
+    font-family: Microsoft YaHei;
+}

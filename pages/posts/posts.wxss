@@ -1,0 +1,13 @@
+/* pages/posts/posts.wxss */
+@import "post-item/post-item-template.wxss";
+
+.post-container {
+  background: #fff;
+}
+
+swiper, swiper image {
+  width: 100%;
+  height: 600rpx;
+}
+
+

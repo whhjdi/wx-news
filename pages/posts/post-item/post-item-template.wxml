@@ -1,0 +1,18 @@
+<!--pages/posts/post-item/post-item-template.wxml-->
+<template name='postItem'>
+  <view class='news-container'>
+    <view class='news-author-date'>
+      <image src='/images/avatar.jpg' class='news-author'></image>
+      <text class='news-date'>{{date}}</text>
+    </view>
+    <text class="news-title">{{title}}</text>
+    <image src='/images/avatar.jpg' class='news-bg'></image>
+    <text class='news-content'>{{content}}</text>
+    <view class='news-like'>
+      <image src='../../images/avatar.jpg' class='news-star'></image>
+      <text class='news-star-font'>{{reading}}</text>
+      <image src='/images/avatar.jpg' class='news-star'></image>
+      <text class='news-star-font'>{{collection}}</text>
+    </view>
+  </view>
+</template>
