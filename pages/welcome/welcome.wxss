@@ -5,6 +5,8 @@
   align-items: center;
   flex-direction: column;
   color: #fff;
+  background: #65CEFA;
+  height: 100%;
 }
 .avatar{
   width: 200rpx;

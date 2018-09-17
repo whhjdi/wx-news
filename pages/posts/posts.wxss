@@ -2,7 +2,7 @@
 @import "post-item/post-item-template.wxss";
 
 .post-container {
-  background: #fff;
+  background: #FDA281;
 }
 
 swiper, swiper image {

@@ -1,5 +1,5 @@
 <view class='container'>
-  <image src='/images/avatar.jpg' class='avatar'></image>
+  <image src='/images/avatar/2.png' class='avatar'></image>
   <text class='user-name'>Hello 沐雪</text>
   <view class='enter-container' bindtap="onTap">
     <text class='enter'>开启小程序之旅</text>

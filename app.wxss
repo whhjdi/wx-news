@@ -1,7 +1,8 @@
 page{
-  background-color: #5ac8fa;
+  background-color: #fff;
   height: 100%;
 }
 text{
     font-family: Microsoft YaHei;
+    font-size: 24rpx;
 }

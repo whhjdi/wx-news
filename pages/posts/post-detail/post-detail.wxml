@@ -1,2 +1,21 @@
 <!--pages/posts/post-detail/post-detail.wxml-->
-<text>pages/posts/post-detail/post-detail.wxml</text>
+<view class='detail-container'>
+  <image src='{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}' class='detail-img'></image>
+  <image src='{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}' class='music' catchtap='onMusicTap'></image>
+  <view class='author-container'>
+    <image src='{{postData.avatar}}' class='author-avatar'></image>
+    <text class='author-name'>{{postData.author}}</text>
+    <text class='author-text'>发表于</text>
+    <text class='author-date'>{{postData.dateTime}}</text>
+  </view>
+  <text class='title'>{{postData.title}}</text>
+  <view class='tool'>
+    <view class='img-container'>
+      <image wx:if='{{collected}}' src='/images/icon/collection.png' catchtap='onCollectionTap'></image>
+      <image wx:else catchtap='onCollectionTap' src='/images/icon/collection-anti.png'></image>
+      <image catchtap='onShareTap' src='/images/icon/share.png' class='img-share'></image>
+    </view>
+    <view class='horizon'></view>
+  </view>
+  <text class='detail'>{{postData.detail}}</text>
+</view>
